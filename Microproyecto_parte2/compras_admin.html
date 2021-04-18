@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACME S.A.S | Compras</title>
+    <link rel="stylesheet" href="css/base_admin.css">
+    <link rel="stylesheet" href="css/basetabla_admin.css">
+    <link rel="stylesheet" href="css/vm_compras.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/icono_sinfondo.png">
+</head>
+
+<body>
+    <div class="main-container">
+        <header class="header">
+            <div class="menu">
+                <div class="logo">
+                    <a href="index.html"><img class="logoimg" src="img/icono_sinfondo.png"></a>
+                </div>
+                <div class="titulo">ACME S.A.S </div>
+                <div class="isesion">
+                    <a class="isesion_iniciar" href="principal_admin.html">juanperez ▾</a>
+                </div>
+            </div>
+            <div class="navegacion">
+                <div class="nav">
+                    <a href="compras_admin.html">Compras</a>
+                    <a href="catalogos_admin.html">Catálogos</a>
+                    <a href="cotizaciones_admin.html">Cotizaciones</a>
+                    <a href="ordenes_admin.html">Ordenes de trabajo</a>
+                    <a href="productos_admin.html">Productos</a>
+                    <a href="clientes_admin.html">Clientes</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="section">
+            <div class="seccion">
+                <div class="titulo_com">Compras de productos</div>
+                <div class="table-container">
+                    <div class="header-tabla">
+                        <div class="btnybuscar">
+                            <div class="boton_crear"> <input class=" boton boton_crearinput" type="submit"
+                                    onclick="location.href='#ventanacrear'" value="Crear"></div>
+                            <div class="titulotabla">Compras realizadas</div>
+                            <div class="caja_buscar">
+                                <input type="search" class="input_buscar" placeholder="Buscar compra...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <table class="table">
+                        <thead>
+                            <th></th>
+                            <th>Código</th>
+                            <th>Nombre</th>
+                            <th>Proveedor</th>
+                            <th>Fecha de compra</th>
+                            <th class="thopciones">Opciones</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>####</td>
+                                <td>Compra 1</td>
+                                <td>Francisco</td>
+                                <td>9/04/2021</td>
+                                <td class="botones"><input class="boton_mod boton" type="submit"
+                                        onclick="location.href='#ventanamod'" value="Modificar">
+                                    <input class="boton_eliminar boton" type="submit" onclick="location.href='#'"
+                                        value="Eliminar">
+                                </td>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>####</td>
+                                <td>Compra 2</td>
+                                <td>Gustavo</td>
+                                <td>11/04/2021</td>
+                                <td class="botones">
+                                    <input class="boton_mod boton" type="submit" onclick="location.href='#ventanamod'"
+                                        value="Modificar">
+                                    <input class="boton_eliminar boton" type="submit" onclick="location.href='#'"
+                                        value="Eliminar">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>####</td>
+                                <td>Compra 3</td>
+                                <td>Gustavo</td>
+                                <td>11/04/2021</td>
+                                <td class="botones">
+                                    <input class="boton_mod boton" type="submit" onclick="location.href='#ventanamod'"
+                                        value="Modificar">
+                                    <input class="boton_eliminar boton" type="submit" onclick="location.href='#'"
+                                        value="Eliminar">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>####</td>
+                                <td>Compra 4</td>
+                                <td>Gustavo</td>
+                                <td>11/04/2021</td>
+                                <td class="botones">
+                                    <input class="boton_mod boton" type="submit" onclick="location.href='#ventanamod'"
+                                        value="Modificar">
+                                    <input class="boton_eliminar boton" type="submit" onclick="location.href='#'"
+                                        value="Eliminar">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>####</td>
+                                <td>Compra 5</td>
+                                <td>Francisco</td>
+                                <td>11/04/2021</td>
+                                <td class="botones">
+                                    <input class="boton_mod boton" type="submit" onclick="location.href='#ventanamod'"
+                                        value="Modificar">
+                                    <input class="boton_eliminar boton" type="submit" onclick="location.href='#'"
+                                        value="Eliminar">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>####</td>
+                                <td>Compra 6</td>
+                                <td>Francisco</td>
+                                <td>12/04/2021</td>
+                                <td class="botones">
+                                    <input class="boton_mod boton" type="submit" onclick="location.href='#ventanamod'"
+                                        value="Modificar">
+                                    <input class="boton_eliminar boton" type="submit" onclick="location.href='#'"
+                                        value="Eliminar">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>####</td>
+                                <td>Compra 7</td>
+                                <td>Francisco</td>
+                                <td>12/04/2021</td>
+                                <td class="botones">
+                                    <input class="boton_mod boton" type="submit" onclick="location.href='#'"
+                                        value="Modificar">
+                                    <input class="boton_eliminar boton" type="submit" onclick="location.href='#'"
+                                        value="Eliminar">
+                                </td>
+                            </tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="footer-tabla">
+                        <div class="pag_numeros">
+                            <ul>
+                                <li><span class="bt">1</span></li>
+                                <li><input class="bt" type="submit" value="2"></li>
+                                <li><input class="bt" type="submit" value="3"></li>
+                                <li><input class="bt" type="submit" value="4"></li>
+                                <li><input class="bt" type="submit" value="..."></li>
+                                <li><input class="bt" type="submit" value="9"></li>
+                                <li><input class="bt" type="submit" value="10"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <input class="boton_volver boton" type="submit" onclick="location.href='principal_admin.html'"
+                    value="Volver">
+
+            </div>
+            <aside class="aside">
+                <h6 class="destacados">Destacados</h6>
+                <div class="hrn">
+                    <a href="index.html" class="home"><i class="fa fa-home" aria-hidden="true"
+                            style="padding: 0 ;margin-right: 10px;"></i>Home</a>
+                    <a href="reportes.html" class="report">Reportes</a>
+                    <a href="#" class="novedades">Novedades</a>
+                </div>
+                <a href="#" class="redes">
+                    <div>Redes sociales</div>
+                    <div class="redes_iconos">
+                        <a href="#"><img class="red"
+                                src="https://lh6.googleusercontent.com/-CYt37hfDnQ8/T3nNydojf_I/AAAAAAAAAr0/P5OtlZxV4rk/s32/facebook32.png"></a>
+                        <a href="#"><img class="red"
+                                src="https://lh6.googleusercontent.com/--aIk2uBwEKM/T3nN1x09jBI/AAAAAAAAAs8/qzDsbw3kEm8/s32/twitter32.png"></a>
+                    </div>
+                </a>
+            </aside>
+        </section>
+
+        <footer class="footer">
+            <div class="close">
+                Copyright<i class="fa fa-copyright" aria-hidden="true" style="padding: 4px;"></i>2021
+                <div>Todos los derechos reservados</div>
+            </div>
+            <div class="container_ubicorreo">
+                <div class="footer_ubicacion">
+                    <i class="fa fa-home" aria-hidden="true" style="padding: 0;"></i> Carrera 18N #52 -22
+                </div>
+                <div class="footer_correo">
+                    <i class="fa fa-envelope" aria-hidden="true" style="padding: 0;"></i> acme@gmail.com
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="ventana_crear" id="ventanacrear">
+            <div class="cont_ventana">
+                <div class="ventana_header">
+                    <div class="titulo_vent">Registrar Compra</div>
+                </div>
+                <form class="formulario">
+                    <div class="nom-provee">
+                        <h5 for="">Proveedor</h5>
+                        <input type="text" placeholder="Proveedor">
+                    </div>
+                    <div class="fecha">
+                        <h5 for="">Fecha</h5>
+                        <input type="date" placeholder="">
+                    </div>
+                    <div class="prod">
+                        <h5 for="">Productos</h5>
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                        <input type="submit" onclick="location.href='#ventanaproduc'" value="Agregar">
+                    </div>
+
+                </form>
+                <div class="seccion">
+                    <div class="titulo_prod">Productos de la compra</div>
+                    <!--Tabla-->
+                    <div class="table_vent-container">
+                        <table class="table_vent">
+                            <thead>
+                                <th></th>
+                                <th>Código</th>
+                                <th>Nombre</th>
+                                <th>Cantidad</th>
+                                <th>Categoria</th>
+                                <th>Precio</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        <div class="footer-tabla">
+                            <div class="pag_numeros">
+                                <ul>
+                                    <li><span class="bt">1</span></li>
+                                    <li><input class="bt" type="submit" value="2"></li>
+                                    <li><input class="bt" type="submit" value="3"></li>
+                                    <li><input class="bt" type="submit" value="4"></li>
+                                    <li><input class="bt" type="submit" value="..."></li>
+                                    <li><input class="bt" type="submit" value="9"></li>
+                                    <li><input class="bt" type="submit" value="10"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="botones_ventana">
+                    <input class="boton_cerrar boton" type="submit" onclick="location.href='compras_admin.html'"
+                        value="Cerrar">
+                    <input class="boton_guardar boton" type="submit" onclick="location.href='#'" value="Guardar">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ventana_produc" id="ventanaproduc">
+            <div class="cont_ventana cont_ventana2">
+
+                <div class="ventana_header">
+                    <div class="titulo_vent">Agregar productos a la compra</div>
+                </div>
+
+                <form class="formulario_v2">
+                    <div class="formp1">
+                        <div class="form_codi">
+                            <h6 for="">Código</h6>
+                            <input class="v2_input" type="text" placeholder="Código">
+                        </div>
+                        <div class="form_cat">
+                            <h6 for="">Categoría</h6>
+                            <input class="v2_input" type="text" placeholder="Categoría">
+                        </div>
+                        <div class="form_precioen">
+                            <h6 for="">Precio Entrada</h6>
+                            <input class="v2_input" type="text" placeholder="Precio entrada">
+                        </div>
+
+                        <div class="form_descrip">
+                            <h6 for="">Descripción</h6>
+                            <input class="v2_input" type="text" placeholder="Descripción">
+                        </div>
+                        <div class="form_presentacion">
+                            <h6 for="">Presentación</h6>
+                            <input type="text" placeholder="Presentación">
+                        </div>
+                    </div>
+
+                    <div class="formp2">
+                        <div class="form_nombre">
+                            <h6 for="">Nombre</h6>
+                            <input class="v2_input" type="text" placeholder="Nombre producto">
+                        </div>
+                        <div class="form_ubic">
+                            <h6 for="">Ubicación</h6>
+                            <select name="Ubicación">
+                                <option value="1">Bodega</option>
+                                <option value="2">Vitrina</option>
+                            </select>
+                        </div>
+
+                        <div class="form_preciosal">
+                            <h6 for="">Precio Salida</h6>
+                            <input class="v2_input" type="text" placeholder="Precio salida">
+                        </div>
+                        <div class="form_unidad">
+                            <h6 for="">Unidad</h6>
+                            <input type="text" placeholder="Unidad">
+                        </div>
+
+                        <div class="form_agregarimg">
+                            <h6 for="">Agregar imagen</h6>
+                            <div class="botonagregar">+</div>
+                        </div>
+                    </div>
+
+                </form>
+                <div class="containerbtn">
+                    <input class="boton_atras boton" type="submit" onclick="location.href='#ventanacrear '"
+                        value="Atrás">
+                    <input class="boton_ag boton" type="submit" onclick="location.href='#ventanacrear'"
+                        value="Agregar producto">
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ventana_mod" id="ventanamod">
+            <div class="cont_ventana">
+                <div class="ventana_header">
+                    <div class="titulo_vent">Modificar Compra</div>
+                </div>
+                <form class="formulario">
+                    <div class="nom-provee">
+                        <h5 for="">Proveedor</h5>
+                        <input type="text" placeholder="Francisco">
+                    </div>
+                    <div class="fecha">
+                        <h5 for="">Fecha</h5>
+                        <input type="date">
+                    </div>
+                    <div class="prod">
+                        <h5 for="">Productos</h5>
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                        <input type="submit" onclick="location.href='#ventanaproduc'" value="Agregar">
+                    </div>
+
+                </form>
+                <div class="seccion">
+                    <div class="titulo_prod">Productos de la compra</div>
+                    <!--Tabla-->
+                    <div class="table_vent-container">
+                        <table class="table_vent">
+                            <thead>
+                                <th></th>
+                                <th>Código</th>
+                                <th>Nombre</th>
+                                <th>Cantidad</th>
+                                <th>Categoria</th>
+                                <th>Precio</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>####</td>
+                                    <td>Prod1</td>
+                                    <td>3</td>
+                                    <td>Cat1</td>
+                                    <td>$7500</td>
+
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>####</td>
+                                    <td>Prod2</td>
+                                    <td>1</td>
+                                    <td>Cat3</td>
+                                    <td>$2300</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>####</td>
+                                    <td>Prod3</td>
+                                    <td>1</td>
+                                    <td>Cat1</td>
+                                    <td>$11300</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>####</td>
+                                    <td>Prod1</td>
+                                    <td>3</td>
+                                    <td>Cat1</td>
+                                    <td>$7500</td>
+                                </tr>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        <div class="footer-tabla">
+                            <div class="pag_numeros">
+                                <ul>
+                                    <li><span class="bt">1</span></li>
+                                    <li><input class="bt" type="submit" value="2"></li>
+                                    <li><input class="bt" type="submit" value="3"></li>
+                                    <li><input class="bt" type="submit" value="4"></li>
+                                    <li><input class="bt" type="submit" value="..."></li>
+                                    <li><input class="bt" type="submit" value="9"></li>
+                                    <li><input class="bt" type="submit" value="10"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="botones_ventana">
+                    <input class="boton_cerrar boton" type="submit" onclick="location.href='compras_admin.html'"
+                        value="Cerrar">
+                    <input class="boton_guardar boton" type="submit" onclick="location.href='#'" value="Guardar">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
